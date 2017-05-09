@@ -49,6 +49,120 @@
     </div>
 </nav>
 
+<!-- Login Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="top:50px;">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel"> Come to the dark side... </h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#Login" data-toggle="tab"> Login </a></li>
+                        <li><a href="#Registration" data-toggle="tab"> Registration </a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Login">
+                            <form role="form" class="form-horizontal">
+
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label"> Email </label>
+                                    <div class="col-sm-10">
+                                        <input type="email" style="width:400px;" class="form-control" id="email1" placeholder="Email" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="col-sm-2 control-label"> Password </label>
+                                    <div class="col-sm-10">
+                                        <input type="email" style="width:400px;" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2"> </div>
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary btn-sm"> Submit </button>
+                                        <a href="javascript:;">Forgot your password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane" id="Registration">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label"> Name </label>
+                                    <div class="col-sm-10">
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control" placeholder="Name" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="mobile" class="col-sm-2 control-label">
+                                        Mobile</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="col-sm-2 control-label">
+                                        Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="password" placeholder="Password" />
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <button type="button" class="btn btn-primary btn-sm">
+                                            Save & Continue</button>
+                                        <button type="button" class="btn btn-default btn-sm">
+                                            Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+     $('.myModal > li').on('click', function(e) {
+        $('.myModal > li').removeClass('active');
+        $(this).addClass('active');
+     });
+
+</script>
+
+
+
+
 <div class="jumbotron text-center" >
     <abc>JMC Travel</abc>
     <p>Perfect your journey by holding the perfect roof</p>
