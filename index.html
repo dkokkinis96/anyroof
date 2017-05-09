@@ -34,16 +34,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#myPage">Logo </a>
+            <<a class="navbar-brand" href="#myPage">Logo </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#suggestions">SUGGESTIONS</a></li>
-                <li><a href="#portfolio">BECOME A HOST</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="login.html">LOG IN</a></li>
-
+                <li><a href="#about"> ABOUT </a></li>
+                <li><a href="#suggestions"> SUGGESTIONS </a></li>
+                <li><a href="#become_a_host"> BECOME A HOST </a></li>
+                <li><a href="#contact"> CONTACT </a></li>
+                <li><a data-toggle="modal" data-target="#myModal" href="#myModal"> LOG IN / REGISTER </a></li>
             </ul>
         </div>
     </div>
@@ -109,24 +108,21 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="email" class="col-sm-2 control-label">
-                                        Email</label>
+                                    <label for="email" class="col-sm-2 control-label"> Email </label>
                                     <div class="col-sm-10">
                                         <input type="email" class="form-control" id="email" placeholder="Email:" />
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="mobile" class="col-sm-2 control-label">
-                                        Mobile</label>
+                                    <label for="mobile" class="col-sm-2 control-label"> Mobile </label>
                                     <div class="col-sm-10">
                                         <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="password" class="col-sm-2 control-label">
-                                        Password</label>
+                                    <label for="password" class="col-sm-2 control-label"> Password </label>
                                     <div class="col-sm-10">
                                         <input type="password" class="form-control" id="password" placeholder="Password" />
                                     </div>
@@ -136,10 +132,8 @@
                                     <div class="col-sm-2">
                                     </div>
                                     <div class="col-sm-10">
-                                        <button type="button" class="btn btn-primary btn-sm">
-                                            Save & Continue</button>
-                                        <button type="button" class="btn btn-default btn-sm">
-                                            Cancel</button>
+                                        <button type="button" class="btn btn-primary btn-sm"> Save & Continue </button>
+                                        <button type="button" class="btn btn-default btn-sm"> Cancel </button>
                                     </div>
                                 </div>
                             </form>
@@ -168,7 +162,7 @@
     <p>Perfect your journey by holding the perfect roof</p>
 
     <!-- Form for searching -->
-    <div class="bootstrap-iso">
+    <div class="bootstrap-iso" >
         <div class="container-fluid" style="background-color:#f4511e;">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -183,7 +177,7 @@
 
                         <div class="form-group ">
                             <label class="control-label col-sm-2" style="position:relative;top:5px;" for="date">
-                                <font color="#fffff"> From: </font>
+                                <font color="#fffff"> From </font>
                             </label>
                             <div style="position:relative;float:right;">
                                 <div class="input-group">
@@ -197,7 +191,7 @@
 
                         <div class="form-group">
                             <label class="control-label col-sm-2" style="position:relative;top:5px;" for="date">
-                                <font color="#fffff"> To: </font>
+                                <font color="#fffff"> To </font>
                             </label>
                             <div class="col-sm-10">
                                 <div class="input-group">
@@ -211,16 +205,13 @@
 
                         <div class="form-group ">
                             <label class="control-label col-sm-5" style="position:relative;top:5px;margin-left:-20px;" for="select">
-                                <font color="#fffff"> Visitors: </font>
+                                <font color="#fffff"> Visitors </font>
                             </label>
                             <div class="col-sm-3">
                                 <select class="select form-control" id="select" name="select">
                                     <option value="1"> 1 </option>
                                     <option value="2"> 2 </option>
-                                    <option value="3+"> 3 </option>
-                                    <option value="4"> 4 </option>
-                                    <option value="5"> 5 </option>
-                                    <option value="6+"> 6+ </option>
+                                    <option value="3+"> 3+ </option>
                                 </select>
                             </div>
                         </div>
@@ -386,41 +377,57 @@
         <div class="col-sm-4 col-xs-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <h1>$1,000,000 Host Guarantee</h1>
+                    <h1>Basic</h1>
                 </div>
                 <div class="panel-body">
-                    <p><strong>The Host Guarantee protects your home and your stuff from accidental damage.</strong></p>
-                    <p>Every host with a listing on Airbnb is eligible for coverage at no additional cost.</p>
-                    <p><strong>You don’t have to do anything to sign up.</strong></p>
+                    <p><strong>20</strong> Lorem</p>
+                    <p><strong>15</strong> Ipsum</p>
+                    <p><strong>5</strong> Dolor</p>
+                    <p><strong>2</strong> Sit</p>
+                    <p><strong>Endless</strong> Amet</p>
                 </div>
-               <!-- <div class="panel-footer">
+                <div class="panel-footer">
                     <h3>$19</h3>
                     <h4>per month</h4>
                     <button class="btn btn-lg">Sign Up</button>
-                </div> -->
-            </div>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <div class="panel panel-default text-center">
-                <div class="panel-heading">
-                    <h1>JMC Travel is built on trust</h1>
-                </div>
-                <div class="panel-body">
-                    <p><strong>We require verified information from both hosts and guests, including phone numbers</strong></p>
-                    <p>After a trip, everyone gets a chance to write a review.</p>
-                    <p><strong>Reviews keep guests accountable for treating hosts and their homes with respect.</strong></p>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 col-xs-12">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <h1>So much more than money</h1>
+                    <h1>Pro</h1>
                 </div>
                 <div class="panel-body">
-                    <p><strong>Besides the extra income, hosts join a supportive worldwide community.</strong></p>
-                    <p>Hospitality is still a thing!</p>
-                    <p><strong>There are always opportunities to learn from Airbnb and other hosts.</strong></p>
+                    <p><strong>50</strong> Lorem</p>
+                    <p><strong>25</strong> Ipsum</p>
+                    <p><strong>10</strong> Dolor</p>
+                    <p><strong>5</strong> Sit</p>
+                    <p><strong>Endless</strong> Amet</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$29</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg">Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <h1>Premium</h1>
+                </div>
+                <div class="panel-body">
+                    <p><strong>100</strong> Lorem</p>
+                    <p><strong>50</strong> Ipsum</p>
+                    <p><strong>25</strong> Dolor</p>
+                    <p><strong>10</strong> Sit</p>
+                    <p><strong>Endless</strong> Amet</p>
+                </div>
+                <div class="panel-footer">
+                    <h3>$49</h3>
+                    <h4>per month</h4>
+                    <button class="btn btn-lg">Sign Up</button>
                 </div>
             </div>
         </div>
