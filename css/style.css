@@ -5,12 +5,12 @@ body {
 }
 
 abc {
-    font-family: Lobster;
+    font-family: Old Standard TT;
     font-size: 70px;
     text-transform: uppercase;
     color: #00000;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h2 {
